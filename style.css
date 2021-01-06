@@ -6,6 +6,10 @@ body{
     
     
 }
+
+
+
+
 .menu {
     overflow: hidden;
     text-align: right;
@@ -157,6 +161,35 @@ background-image: url("personal-website/images/image\ 8.png");
     color: rgb(35, 36, 36);
     margin-top: 100px;
 }
+
+
+.icon img{
+
+    width: 100%
+}
+
+
+
+
+.icon{
+    float: left;
+    height: 50px;
+    width: 20px;
+    margin: 5px;
+    
+
+}
+
+
+.media-icon{
+
+    margin-left: 47%;
+}
+
+
+
+
+
 .copyright{
     text-align: center;
     font-size: 12px;
