@@ -97,24 +97,6 @@ text-align: center;
   height: 700px;
   
 }
-/*
-#gym{
-
-background-image: url("personal-website/images/image\ 4.png");
-
-
-}
-
-#creative{
-
-background-image: url("personal-website/images/image\ 5.png");
-}
-
-#music{
-background-image: url("personal-website/images/image\ 8.png");
-
-}
-*/
 
 .projects{
 
@@ -134,14 +116,36 @@ background-image: url("personal-website/images/image\ 8.png");
 }
 
 
-.inquiry{
+.inquiry {
+    width: 700px;
+  height: 150px;
+  background-image: url(./assets/shapes/inquiry.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  border-radius: 10px;
+}
 
-    background-image: url("personal-website/shapes/inquiry.png");
-    height: 200px;
-    width: 70%;
-    background-position: center;
-    margin-left: 200px;
+.inquiry button {
+    float: right;
+  margin-top: 53px;
+  background: green;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 24px;
+  margin-right: 28px;
+  font-size: 23px;
+}
 
+.inquiry h2 {
+float: left;
+  color: white;
+  text-align: center;
+  margin-top: 54px;
+  margin-left: 68px;
+  font-size: 40px;
 }
 
 #chat{
@@ -186,6 +190,17 @@ background-image: url("personal-website/images/image\ 8.png");
     margin-left: 47%;
 }
 
+#blog{
+     margin-top: 50px;
+    text-align: center;
+}
+
+
+#player{
+
+    margin-left: 35%;
+    margin-top: 10px;
+}
 
 
 
